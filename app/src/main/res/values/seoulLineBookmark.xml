@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="seoulLineBookmark_defaults">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="seoulLineBookmark">
+        <item>1호선</item>
+        <item>2호선</item>
+        <item>3호선</item>
+    </string-array>
+    <string-array name="seoulLineBookmark_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

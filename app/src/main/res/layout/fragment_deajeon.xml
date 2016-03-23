@@ -1,0 +1,417 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hongssang.subwaykorea.DeajeonFragment">
+
+    <LinearLayout
+        android:id="@+id/layout_deajeon"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="false">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontalScrollView2" >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/deajeoninnerlayout">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:weightSum="1"
+                    android:background="@drawable/subwaymap_kr" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:weightSum="1"
+                        android:layout_weight="0.20" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:weightSum="1"
+                        android:layout_weight="0.09" >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.14" />
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow1"
+                                android:src="@drawable/downarrow"
+                                android:layout_gravity="right" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation1"
+                                android:src="@drawable/atstation"
+                                android:layout_gravity="right" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow2"
+                                android:src="@drawable/downarrow"
+                                android:layout_gravity="right" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation2"
+                                android:src="@drawable/atstation"
+                                android:layout_gravity="right" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow3"
+                                android:src="@drawable/downarrow"
+                                android:layout_gravity="right" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation3"
+                                android:src="@drawable/atstation"
+                                android:layout_gravity="right" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow4"
+                                android:src="@drawable/downarrow"
+                                android:layout_gravity="right" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation4"
+                                android:src="@drawable/atstation"
+                                android:layout_gravity="right" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow5"
+                                android:src="@drawable/downarrow"
+                                android:layout_gravity="right" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation5"
+                                android:src="@drawable/atstation"
+                                android:layout_gravity="right" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:weightSum="1"
+                        android:layout_weight="0.07" >
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.67" />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="0.03" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow6"
+                                android:layout_gravity="right"
+                                android:src="@drawable/rightarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation6"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow7"
+                                android:layout_gravity="right"
+                                android:src="@drawable/rightarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation7"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow8"
+                                android:layout_gravity="right"
+                                android:src="@drawable/rightarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation8"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow9"
+                                android:layout_gravity="right"
+                                android:src="@drawable/rightarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation9"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow10"
+                                android:layout_gravity="right"
+                                android:src="@drawable/rightarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation10"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow11"
+                                android:layout_gravity="right"
+                                android:src="@drawable/rightarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation11"
+                                android:src="@drawable/atstation"
+                                android:layout_gravity="right" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1.00" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow12"
+                                android:layout_gravity="right"
+                                android:src="@drawable/downarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation12"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow13"
+                                android:src="@drawable/downarrow"
+                                android:layout_gravity="right" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation13"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.41"
+                        android:weightSum="1" >
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.78" />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.07" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow14"
+                                android:layout_gravity="right"
+                                android:src="@drawable/rightarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation14"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow15"
+                                android:layout_gravity="right"
+                                android:src="@drawable/rightarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation15"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow16"
+                                android:layout_gravity="right"
+                                android:src="@drawable/rightarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation16"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow17"
+                                android:layout_gravity="right"
+                                android:src="@drawable/rightarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation17"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow18"
+                                android:layout_gravity="right"
+                                android:src="@drawable/rightarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation18"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow19"
+                                android:layout_gravity="right"
+                                android:src="@drawable/rightarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation19"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow20"
+                                android:layout_gravity="right"
+                                android:src="@drawable/rightarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation20"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengArrow21"
+                                android:layout_gravity="right"
+                                android:src="@drawable/rightarrow" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/sanghengStation21"
+                                android:layout_gravity="right"
+                                android:src="@drawable/atstation" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                </FrameLayout>
+            </HorizontalScrollView>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

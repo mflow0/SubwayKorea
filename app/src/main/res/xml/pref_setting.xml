@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/firstSeenCity"
+        android:entryValues="@array/firstSeenCity_values"
+        android:key="firstSeenCity"
+        android:title="기본 도시 설정"/>
+<PreferenceCategory android:title="노선 즐겨찾기">
+    <MultiSelectListPreference
+        android:defaultValue="@array/seoulLineBookmark_defaults"
+        android:entries="@array/seoulLineBookmark"
+        android:entryValues="@array/seoulLineBookmark_values"
+        android:key="seoulLineBookmark"
+        android:title="서울 노선 즐겨찾기"/>
+</PreferenceCategory>
+</PreferenceScreen>
